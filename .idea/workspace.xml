@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0d9707ca-3b13-4134-b9b4-a115b6c78a86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Portal to the world of education.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui.rpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/bar/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/bar/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/bar/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/bar/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/bubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/check_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/check_selected_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/choice_hover_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/choice_idle_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/hover_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/idle_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/quick_hover_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/quick_idle_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/radio_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/radio_selected_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/slot_hover_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/button/slot_idle_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/frame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/game_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/main_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/namebox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/notify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/nvl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/overlay/confirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/overlay/game_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/overlay/main_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/bar/bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/bar/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/bar/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/bar/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/check_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/check_selected_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/choice_hover_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/choice_idle_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/hover_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/idle_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/radio_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/radio_selected_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/slot_hover_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/button/slot_idle_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/nvl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/overlay/game_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/overlay/main_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/scrollbar/horizontal_hover_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/scrollbar/horizontal_hover_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/scrollbar/horizontal_idle_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/scrollbar/horizontal_idle_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/scrollbar/vertical_hover_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/scrollbar/vertical_hover_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/scrollbar/vertical_idle_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/scrollbar/vertical_idle_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/slider/horizontal_hover_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/slider/horizontal_hover_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/slider/horizontal_idle_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/slider/horizontal_idle_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/slider/vertical_hover_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/slider/vertical_hover_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/slider/vertical_idle_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/slider/vertical_idle_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/phone/textbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/scrollbar/horizontal_hover_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/scrollbar/horizontal_hover_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/scrollbar/horizontal_idle_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/scrollbar/horizontal_idle_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/scrollbar/vertical_hover_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/scrollbar/vertical_hover_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/scrollbar/vertical_idle_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/scrollbar/vertical_idle_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/skip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/slider/horizontal_hover_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/slider/horizontal_hover_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/slider/horizontal_idle_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/slider/horizontal_idle_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/slider/vertical_hover_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/slider/vertical_hover_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/slider/vertical_idle_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/slider/vertical_idle_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/textbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/thoughtbubble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/gui/window_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/libs/libs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/options.rpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/screens.rpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/script.rpy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game/tl/None/common.rpym" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="36juGMtm1y3YTKYSxmOfLUtrRs2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-a101402ee41c-968fe969f28a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.28238.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d9707ca-3b13-4134-b9b4-a115b6c78a86" name="Changes" comment="" />
+      <created>1765532205321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765532205321</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.rpy" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
