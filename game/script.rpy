@@ -464,7 +464,7 @@ label ct_main:
     # tmp
     $ title = "courses_main"
     $ button = "temp_button.png"
-    call screen button(title, 932, 512, button)
+    call screen button(title, 25, 383, button)
 
 label courses_main:
 
@@ -536,5 +536,55 @@ label courses_filter_4:
 label courses_adapt:
 
     scene courses adapt
+
+    # tmp
+    $ title = "boss_panel_main_1"
+    $ button = "temp_button.png"
+    call screen button(title, 25, 613, button)
+
+label boss_panel_main_1:
+
+    scene boss panel main
+
+    $ title = "boss_panel_search"
+    $ button = "temp_button.png"
+    call screen button(title, 328, 456, button)
+
+label boss_panel_search:
+
+    scene boss panel search
+
+    $ title = "boss_panel_employee"
+    $ button = "temp_button.png"
+    call screen button(title, 336, 686, button)
+
+label boss_panel_employee:
+
+    scene boss panel employee
+
+    # tmp
+    $ title = "boss_panel_main_2"
+    $ button = "temp_button.png"
+    call screen button(title, 25, 613, button)
+
+label boss_panel_main_2:
+
+    scene boss panel main
+
+    $ title = "boss_panel_courses"
+    $ button = "temp_button.png"
+    call screen button(title, 130, 545, button)
+
+label boss_panel_courses:
+
+    scene boss panel courses
+
+    $ title = "boss_panel_reports"
+    $ button = "temp_button.png"
+    call screen button(title, 412, 374, button)
+
+label boss_panel_reports:
+
+    scene boss panel reports
 
     e "Всё!"
