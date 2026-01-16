@@ -42,14 +42,14 @@ transform show_1_pos:
 transform show_2_pos:
     xanchor 0.5
     yanchor 0.5
-    xpos 932
-    ypos 472
+    xpos 1070
+    ypos 277
 
 transform show_3_pos:
     xanchor 0.5
     yanchor 0.5
-    xpos 1070
-    ypos 277
+    xpos 932
+    ypos 472
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
@@ -316,6 +316,10 @@ label main_main_3:
 
     scene main main
 
+    show etajonok happy at e_right with moveinright
+    e "Далее у нас тут есть сертификаты. Давай нажмём и посмотрим."
+    hide etajonok happy with moveoutright
+
     $ title = "main_certs"
     $ button = "button_7.png"
     call screen button(title, 1208, 179, button)
@@ -323,6 +327,17 @@ label main_main_3:
 label main_certs:
 
     scene main certs
+
+    show etajonok neutral at e_right with moveinright
+    e "Сертификаты даются за курсы адаптации, учебные программы и карьерный трек. Кстати, о них мы ещё поговорим."
+
+    show etajonok up
+    e "Сертификаты можно посмотреть и распечатать. А затем повесить на стену и гордиться собой!"
+
+    show etajonok happy
+    e "Пора возвращаться на Главную, мне ещё есть, что рассказать."
+
+    hide etajonok happy with moveoutright
 
     $ title = "main_main_4"
     $ button = "button_6.png"
@@ -334,7 +349,24 @@ label main_main_4:
 
     show show_2 at show_2_pos
 
+    show etajonok neutral at e_right with moveinright
+    e "Смотри, здесь у нас находится рейтинг пользователей."
+
+    show etajonok happy
+    e "Он формируется на основе количества пройденных курсов. А самым активным в конце квартала Учебный Портал выдает дипломы!"
+
+    hide show_2
+
     show show_3 at show_3_pos
+
+    show etajonok up
+    e "А вот тут ты можешь найти самые свежие новости Портала! От приортитетного обучения до обновлений нашей игры!"
+
+    show etajonok neutral
+    e "Давай откроем любую новость."
+
+    hide show_3
+    hide etajonok neutral with moveoutright
 
     $ title = "main_news"
     $ button = "button_8.png"
@@ -344,6 +376,17 @@ label main_news:
 
     scene main news
 
+    show etajonok happy at e_right with moveinright
+    e "Открыв новость, ты можешь прочитать её полностью и перейти по ссылкам."
+
+    show etajonok neutral
+    e "Например тут мы можем быстро перейти к приоритетным курсам. Но это не единственная возможность найти их!"
+
+    show etajonok happy
+    e "Давай покажу ещё способ. Закрывай эту новость."
+
+    hide etajonok happy with moveoutright
+
     $ title = "main_main_5"
     $ button = "button_9.png"
     call screen button(title, 1299, 207, button)
@@ -352,6 +395,14 @@ label main_main_5:
 
     scene main main
 
+    show etajonok neutral at e_right with moveinright
+    e "И снова мы на главной. Видешь, у тебя под фото есть несколько пунктов меню?"
+
+    show etajonok happy
+    e "Отсюда мы и перейдём к приоритетным обучениям!"
+
+    hide etajonok happy with moveoutright
+
     $ title = "main_priopity"
     $ button = "button_10.png"
     call screen button(title, 157, 662, button)
@@ -359,5 +410,53 @@ label main_main_5:
 label main_priopity:
 
     scene main priority
+
+    show etajonok up at e_right with moveinright
+    e "Да-да, тут есть целая страничка для приоритетных обучений!"
+
+    show etajonok happy
+    e "Потому что приоритетное обучение — это важно, это актуальные знания, которые необходимо получить каждому!"
+
+    scene black with fade
+    scene main main with dissolve
+
+    show etajonok neutral at e_right
+    e "Ну, как тебе главная страница Учебного Портала?"
+
+    show alex think at a_left with moveinleft
+    
+menu:
+    "Похоже на личный кабинет сотрудника":
+        $ choice = 1
+        jump ct_main
+
+    "Честно — слишком много всего":
+        $ choice = 2
+        jump ct_main
+
+    "Где здесь польза для меня как руководителя?":
+        $ choice = 3
+        jump ct_main
+
+label ct_main:
+
+    if choice == 1:
+        show etajonok happy
+        e "Именно — но куда мощнее."
+
+        show etajonok up
+        e "Например, тут есть полезнейший раздел для адаптации новичков и развития опытных сотрудников — «Карьерный трек». Это их персональная карта развития."
+    elif choice == 2:
+        show etajonok happy
+        e "Тем более тебе нужен проводник. Пойдём шаг за шагом."
+
+        show etajonok up
+        e "Начнём с карьерного трека — персональной карты развития сотрудника."
+    else:
+        show etajonok up
+        e "Отличный вопрос. Давай начнём с того, что влияет на скорость адаптации новичков."
+
+        show etajonok happy
+        e "Конечно же это «Карьерный трек» — персональная карта развития сотрудников."
 
     e "stop"
