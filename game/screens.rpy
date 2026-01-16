@@ -14,6 +14,18 @@ screen button(title, _xpos, _ypos, button_name):
         hover button_name action Jump(title)
         idle button_name
 
+screen filter_choices(titles, _xpos, _ypos, button_name):
+
+    for i in range(0, len(titles)):
+        imagebutton:
+            xpos _xpos
+            ypos _ypos[i]
+            xanchor 0.5
+            yanchor 0.5
+            hover button_name action Jump(titles[i])
+            idle button_name
+        
+
 screen autobutton(title, _xpos, _ypos, button_name):
 
     imagebutton:

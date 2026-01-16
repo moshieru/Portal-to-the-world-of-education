@@ -460,3 +460,81 @@ label ct_main:
         e "Конечно же это «Карьерный трек» — персональная карта развития сотрудников."
 
     e "stop"
+
+    # tmp
+    $ title = "courses_main"
+    $ button = "temp_button.png"
+    call screen button(title, 932, 512, button)
+
+label courses_main:
+
+    scene courses main
+
+    $ title = "courses_search"
+    $ button = "temp_button.png"
+    call screen button(title, 932, 512, button)
+
+label courses_search:
+
+    scene courses search
+
+    $ title = "courses_filter_1"
+    $ button = "temp_button.png"
+    call screen button(title, 338, 810, button)
+
+label courses_filter_1:
+
+    scene courses filter 1
+
+    e "Щас будут фильтры (тех.ком.)"
+
+    jump filter_1
+
+label filter_1:
+
+    $ titles = ["filter_2", "filter_fail", "filter_fail", "filter_fail", "filter_fail", "filter_fail", "filter_fail"]
+    $ button = "filter_choice.png"
+    $ _ypos = [440, 465, 490, 515, 540, 565, 590]
+    $ filter_number = 1
+    call screen filter_choices(titles, 208, _ypos, button)
+
+label filter_2:
+
+    scene courses filter 2
+
+    $ titles = ["filter_fail", "filter_fail", "filter_fail", "filter_fail", "courses_filter_3", "filter_fail"]
+    $ button = "filter_choice.png"
+    $ _ypos = [662, 687, 712, 737, 762, 787]
+    $ filter_number = 2
+    call screen filter_choices(titles, 208, _ypos, button)
+
+label filter_fail:
+
+    e "Не тот фильтр!"
+
+    if filter_number == 1:
+        jump filter_1
+    elif filter_number == 2:
+        jump filter_2
+
+label courses_filter_3:
+
+    scene courses filter 3
+
+    $ title = "courses_filter_4"
+    $ button = "temp_button.png"
+    call screen button(title, 337, 835, button)
+
+label courses_filter_4:
+
+    scene courses filter 4
+
+    $ title = "courses_adapt"
+    $ button = "temp_button.png"
+    call screen button(title, 933, 272, button)
+
+label courses_adapt:
+
+    scene courses adapt
+
+    e "Всё!"
